@@ -1,0 +1,11 @@
+# This is a Dockerfile for a custom image
+FROM ubuntu:20.04
+
+WORKDIR /app
+
+# This is the command to install the dependencies
+RUN apt-get update && apt-get install -y \
+    curl 
+
+# This is the command to run when the container starts
+CMD ["echo", "Hello from my custom image!!"]
