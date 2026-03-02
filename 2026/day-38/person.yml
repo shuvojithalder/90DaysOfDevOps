@@ -1,0 +1,30 @@
+name: 'Shuvojit Halder'
+
+role: 'Developer'
+
+experience_years: 10
+
+learning: true
+
+tools: 
+    - Github
+    - Jenkins
+    - Kubernetes
+    - Terraform
+    - Docker
+
+hobbies: ['Learning','Football','Chess']   
+
+Server:
+    name: EC2
+    IP: 10.10.132.24
+    Port: 80
+database:
+    host: 10.10.30.24:3304
+    name: educationdb
+    credential:
+        username: sa
+        password: null
+  
+       
+    

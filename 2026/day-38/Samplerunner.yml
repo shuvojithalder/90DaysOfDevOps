@@ -1,0 +1,14 @@
+name: myrunner
+on :
+   workflow_dispatch: 
+jobs:
+  taskrun:
+     runs-on: ubuntu-latest
+
+     steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+           
+        - name: Check Person yaml file
+          run: cat ./.github/workflows/person.yml
+       
